@@ -2,53 +2,52 @@
   "schemaVersion": 1,
   "product": "cloudminer",
   "productName": "Cloud Miner",
-  "generatedAt": "2026-09-01T20:59:59Z",
+  "generatedAt": "2026-09-12T00:00:00Z",
   "releaseHistoryUrl": "https://rite.digital/products/cloudminer/releases",
   "announcement": null,
   "channels": {
     "stable": {
-      "version": "7.6.0",
-      "versionCode": 70600,
-      "buildNumber": "7.6.0.0",
-      "releaseDate": "2026-09-01",
+      "version": "7.9.0",
+      "versionCode": 70900,
+      "releaseDate": "2026-09-12",
       "severity": "recommended",
       "mandatory": false,
-      "mandatoryFrom": null,
+      "mandatoryFrom": "2026-01-01",
       "minimumSupportedVersion": "7.0.0",
       "minimumSupportedVersionCode": 70000,
-      "summary": "Update notices, a 7-day offline licence window, and schema browser fixes.",
+      "summary": "Minimap in the PL/SQL editors, a 7-day offline licence window, and 12 fixes.",
       "highlights": [
-        "Cloud Miner now tells you when a new version is available",
+        "Minimap strip in the PL/SQL object editors and viewers",
         "Licences keep working for 7 days without a network connection",
         "Result-grid font fallback now covers Thai and Arabic text",
         "Schema browser reconnects cleanly after a dropped session"
       ],
-      "releaseNotesUrl": "https://rite.digital/products/cloudminer/releases/7.6.0",
+      "releaseNotesUrl": "https://rite.digital/products/cloudminer/releases/7.9.0",
       "documentationUrl": "https://rite.digital/products/cloudminer/docs",
       "downloadPageUrl": "https://rite.digital/products/cloudminer/download",
       "notify": {
         "minCheckIntervalHours": 24,
         "remindAfterDays": 3,
-        "availableFrom": "2026-08-24T00:00:00Z",
+        "availableFrom": "2026-08-01T00:00:00Z",
         "rolloutPercent": 100
       },
       "downloads": {
         "windows-x64": {
-          "url": "https://rite.digital/products/cloudminer/dist/7.6.0/Cloud%20Miner%20Setup%207.6.0.exe",
-          "filename": "Cloud Miner Setup 7.6.0.exe",
-          "sizeBytes": 0,
+          "url": "https://rite.digital/products/cloudminer/dist/7.9.0/Cloud%20Miner%20Setup%207.9.0.exe",
+          "filename": "Cloud Miner Setup 7.9.0.exe",
+          "sizeBytes": 118374400,
           "minOsVersion": "10"
         },
         "macos-arm64": {
-          "url": "https://rite.digital/products/cloudminer/dist/7.6.0/Cloud%20Miner-7.6.0-arm64.pkg",
-          "filename": "Cloud Miner-7.6.0-arm64.pkg",
-          "sizeBytes": 0,
+          "url": "https://rite.digital/products/cloudminer/dist/7.9.0/Cloud%20Miner-7.9.0-arm64.pkg",
+          "filename": "Cloud Miner-7.9.0-arm64.pkg",
+          "sizeBytes": 123731968,
           "minOsVersion": "12.0"
         },
         "macos-x64": {
-          "url": "https://rite.digital/products/cloudminer/dist/7.6.0/Cloud%20Miner-7.6.0-x64.pkg",
-          "filename": "Cloud Miner-7.6.0-x64.pkg",
-          "sizeBytes": 0,
+          "url": "https://rite.digital/products/cloudminer/dist/7.9.0/Cloud%20Miner-7.9.0-x64.pkg",
+          "filename": "Cloud Miner-7.9.0-x64.pkg",
+          "sizeBytes": 126877696,
           "minOsVersion": "12.0"
         }
       }
